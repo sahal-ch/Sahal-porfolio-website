@@ -6,7 +6,7 @@ function sendMail(params) {
     message: document.getElementById("message").value,
   };
   emailjs.send("service_23gw828", "template_swj6ldn", msg);
-  alert("Message send successfully !!!");
+  alert("Your message has been sent. Thank you!");
 
   document.getElementById("name").value = "";
   document.getElementById("email").value = "";
